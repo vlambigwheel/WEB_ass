@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+iframe {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnails a {
+    margin: 0 10px;
+	
+}
+
+.thumbnails img {
+    width: 150px;
+    height: 100px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.thumbnails img:hover {
+    border-color: #007BFF;
+}

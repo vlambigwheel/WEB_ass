@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1 - LAB 5</title>
+    <script src="bai2.js"></script>
+    <link rel="stylesheet" href="bai4.css">
+    
+</head>
+<body>
+    <div class="info">
+        <h2>Thông tin cá nhân</h2>
+        <p><span class="label"> Họ tên:</span> 
+            <b id="hoten" class="value">
+                <script>document.write(hoten); </script>
+            </b>
+        </p>
+        <p><span class="label">Mã SV:</span> 
+            <b id="masv" class="value">
+                <script>document.write(masv); </script>
+            </b>
+        </p>
+        <p><span class="label">Ngày sinh:</span> <b id="ns" class="value1"></b></p>
+    </div>
+</body>
+</html>
+<script>
+    document.getElementById("ns").innerHTML=ngaysinh;
+</script> 

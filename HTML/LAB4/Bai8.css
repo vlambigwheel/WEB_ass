@@ -1,0 +1,39 @@
+
+table {
+    width: 100%;
+    
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+th, td {
+    padding: 12px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+th {
+    color: white;
+    background-color: yellow; 
+}
+
+
+thead {
+    background-color: yellow;
+}
+
+tbody tr:nth-child(even) {
+    background-color: pink;
+}
+tbody tr:nth-child(odd) {
+    background-color: green; 
+}
+
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+

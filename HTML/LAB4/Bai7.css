@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(224, 188, 80);
+}
+
+tbody tr:nth-child(even) {
+    background-color: pink;
+}
+tbody tr:nth-child(odd) {
+    background-color: green; 
+}
+
+tbody tr:hover {
+    background-color: pink;
+}
+thead>tr1{
+    margin:center;
+    padding:0px;
+} 

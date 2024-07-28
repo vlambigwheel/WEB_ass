@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .container { width: 1140px; margin:auto; border: 1px; solid darkgrey}
+        header{ background: darkolivegreen; height: 120px; position: relative;}
+        main{ background: darkseagreen; min-height: 400px; }
+        footer{ background: darkslategray; height:100px;}
+        #chao{ color:deeppink; font-weight:bold; font-style: italic;
+                position:absolute; right:5px; bottom:5px;}
+    </style>
+    <script>
+        var n= new Date();
+        var gio = n.getHours();
+        if (gio<12) document.write("Chào buổi sáng");
+        else document.write("Chào buổi chiều");
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="chao"></div>
+        </header>
+        <main>
+            <p>JAVASCRIPT có thể làm gì?</p>
+        </main>
+        <footer>
+            <p><span>Họ tên:</span> <span>Đoàn Vũ Lâm</span></p>
+            <p><span>Email:</span><span>theyh4telam@gmail.com</span></p>
+        </footer>
+    </div>
+</body>
+</html>
